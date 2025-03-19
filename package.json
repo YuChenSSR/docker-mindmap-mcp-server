@@ -1,0 +1,18 @@
+{
+  "name": "mindmap-converter-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for converting markdown to mindmap mind maps",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
